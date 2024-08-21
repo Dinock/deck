@@ -496,7 +496,6 @@ export default {
 				border-radius: 50%;
 				background-color: transparent;
 				margin: 12px;
-				margin-left: -4px;
 			}
 		}
 

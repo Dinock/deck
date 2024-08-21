@@ -284,6 +284,7 @@ export default {
 					padding-top: 15px;
 					margin-top: -10px;
 					scrollbar-gutter: stable;
+					max-height: 94%;
 				}
 
 				.smooth-dnd-container.vertical > .smooth-dnd-draggable-wrapper {

@@ -209,6 +209,10 @@ section.app-sidebar__tab--active {
 	height: 100%;
 }
 
+.modal-container {
+	overflow: hidden;
+}
+
 // FIXME: Obivously we should at some point not randomly reuse the sidebar component
 // since this is not oficially supported
 .modal__card .app-sidebar {
@@ -225,6 +229,10 @@ section.app-sidebar__tab--active {
 	overflow: initial;
 	user-select: text;
 	-webkit-user-select: text;
+
+	.app-sidebar-header__mainname-container {
+		padding-top: calc(var(--default-grid-baseline, 4px) * 2);
+	}
 
 	// FIXME: test
 	&:deep {
